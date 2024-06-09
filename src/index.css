@@ -1,2 +1,56 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1A1B21;
+  color: #FFFFFF;
+
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+}
 
 
+.headshot-container {
+  width: 100%;
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 100%;
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.info .name {
+  margin: 15px 0 2px 0; 
+}
+
+.info .job-title {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #F3BF99;
+  font-weight: 300;
+}
+
+.info .website {
+  font-weight: 300;
+}
+
+.headshot {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
