@@ -8,9 +8,16 @@ export default function Info() {
             </div>
             <div className="info">
             <h1 className="name">Tim Koch</h1>
-            <h2 className="job-title"> Shotcrete Specialists</h2>
-            <h3 className="website">Tim Koch Construction Ltd website</h3>
-            <button>Email</button>
+            <h2 className="job-title"> Shotcrete Specialist</h2>
+            <h3 className="website">
+                <a href="https://www.kochconstruction.ca/" target="_blank" rel="noopener noreferrer">
+                Tim Koch Construction Ltd website
+                </a>
+                </h3>
+            <a href="mailto:koch8108@live.com" className="email-button"> 
+            <i className="fas fa-envelope"></i>
+            Email
+            </a>
             </div>
 
         </div>

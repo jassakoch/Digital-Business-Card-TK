@@ -41,6 +41,7 @@ body {
 .info .job-title {
   margin-top: 0px;
   padding-top: 0px;
+  margin-bottom: 0px;
   color: #F3BF99;
   font-weight: 300;
 }
@@ -53,4 +54,34 @@ body {
   max-height: 100%;
   max-width: 100%;
   object-fit: cover;
+}
+
+.info .email-button {
+  margin: 0 30px 0 30px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #D1D5DB;
+  cursor: pointer;
+  text-decoration: none;
+  color: #1A1B21;
+}
+
+.info .website a:hover, 
+.info .website a:focus {
+  text-decoration: underline;
+  outline: none;
+  border-radius: 0;
+  color: #FFFFFF;
+}
+
+.info .website a:visited {
+  color: #FFFFFF;
+}
+
+.info .website a {
+  cursor: pointer;
 }
