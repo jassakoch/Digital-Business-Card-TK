@@ -5,6 +5,22 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-container p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.phone-button {
+    display: inline-block;
+    margin-buttom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.phone-button i {
+    margin-right: 10px;
+    font-size: 16px;
 }
