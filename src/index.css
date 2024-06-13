@@ -8,11 +8,18 @@ body {
 
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .info-container {
+  flex:1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 50vh;
   text-align: center;
 }
 
@@ -70,6 +77,10 @@ body {
   color: #1A1B21;
 }
 
+.info .email-button:hover {
+  background-color: #C0C4CB;
+}
+
 .info .website a:hover, 
 .info .website a:focus {
   text-decoration: underline;
@@ -84,4 +95,5 @@ body {
 
 .info .website a {
   cursor: pointer;
+  text-decoration: none;
 }
