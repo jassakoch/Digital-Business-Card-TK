@@ -14,7 +14,7 @@ export default function Info() {
                         Tim Koch Construction Ltd website
                     </a>
                 </h3>
-                <a href="mailto:koch8108@live.com" className="email-button">
+                <a href="mailto:pjassakoch@gmail.com" className="email-button">
                     <i className="fas fa-envelope"></i>
                     Email
                 </a>
