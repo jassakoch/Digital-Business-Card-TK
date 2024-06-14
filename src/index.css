@@ -103,3 +103,66 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+
+
+/*Media Queries for Desktop */
+ @media only screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .headshot-container {
+width: 50%;
+height: auto;
+    justify-content: flex-end;
+    background-color: #1A1B21;
+  }
+
+
+  .headshot {
+    height: 200px;
+    width: 200px;
+ object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8pxc rgba(0,0,0,0.1);
+    border: 2px solid #FFF;
+
+  }
+
+  .info-container {
+     width: 50%;
+     text-align: left;
+     align-items: flex-start;
+     padding: 30px;
+     margin-right: 0;
+  }
+
+  .info {
+    align-items: flex-start;
+
+  }
+
+  .about-container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex:2;
+    padding: 30px;
+    margin-top: 100px;
+   
+  }
+
+  .about-container .info-container,
+  .about-container .headshot-container {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+ }
