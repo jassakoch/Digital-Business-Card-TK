@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
     return (
         <div className="footer-container">
-            <a href="tel:+5195038768" className="phone-button">
+            <a href="tel:+15195038768" className="phone-button">
                     <i className="fas fa-phone"></i>
                     Call
                 </a>
