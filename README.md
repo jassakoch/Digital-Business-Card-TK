@@ -11,6 +11,10 @@ This project is a digital business card built using React. The goal was to creat
 - **Problem Solved**: This project provides a way to share contact information digitally and ensures that it is always accessible and up-to-date.
 - **What I Learned**: Enhanced skills in React, CSS Flexbox, and deploying applications on Netlify.
 
+## Screenshot 
+![Sceenshot](public/images/DigitalCard_Screenshot.png)
+
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -47,11 +51,11 @@ Follow these steps to get the project running on your local machine:
 
 To use the digital business card, simply navigate to the deployed application on Netlify. Here is a screenshot of the app:
 
-![Digital Business Card Screenshot](assets/images/screenshot.png)
+
 
 ## Credits
 
-- **Your Name** - [Your GitHub Profile](https://github.com/your-github-username)
+- **JassaKoch** - [Jassakoch Github](https://github.com/jassakoch)
 
 If you used any third-party assets or followed any tutorials, list them here as well.
 

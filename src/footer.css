@@ -1,26 +1,14 @@
 .footer-container {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-}
+    width: 100%;
+    box-sizing: border-box;
 
-.footer-container p {
-    margin: 0;
-    padding: 5px 0;
-}
-
-.phone-button {
-    display: inline-block;
-    margin-bottom: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.phone-button i {
-    margin-right: 10px;
-    font-size: 16px;
 }

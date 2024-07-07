@@ -1,15 +1,30 @@
-import React from "react";
+import React from 'react';
+// Importing react-icons libary 
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-export default function Footer() {
-    return (
+function Footer() {
+    //This will handle the click events for the icons
+    const iconUrls = {
+        github: "https://github.com/jassakoch", 
+        linkedin: "https://www.linkedin.com/in/paulina-koch-b0a46132/",
+        stackOverFlow: "https://stackoverflow.com/users/23346589/paulina-jassa-koch",
+
+    };
+
+   
+    
+
+return (
+
+    <footer>
         <div className="footer-container">
-            <a href="tel:+15195038768" className="phone-button">
-                    <i className="fas fa-phone"></i>
-                    Call
-                </a>
-            <p>Cell: 519-503-8768</p>
-            <p>Office: 226-333-2010</p>
-        </div>
+   <a href={iconUrls.github}><FaGithub /></a>
+   <a href={ iconUrls.linkedin}><FaLinkedin /></a>
+   </div>
         
-    );
+    </footer>
+    
+);
 }
+
+export default Footer;

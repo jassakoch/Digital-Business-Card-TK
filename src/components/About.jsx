@@ -1,14 +1,14 @@
 import React from "react";
 
 export default function About() {
-    return (
-      <div className="about-container">
-        <footer>
-        <h4>About</h4>
-        <p>
-            I can help you with foundation and silo repair, waterproofing, all forms of structurual shotcrete, shotcreted pools and more.
-        </p>
-        </footer>
-      </div>  
-    );
+  return (
+    <div className="about-container">
+
+      <h4>About</h4>
+      <p>
+        I seamlessly blend my educational insights with technical expertise, to create innovative, beautiful applications.
+      </p>
+
+    </div>
+  );
 }
