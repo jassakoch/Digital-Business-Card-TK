@@ -49,7 +49,7 @@ Follow these steps to get the project running on your local machine:
 
 ## Usage
 
-To use the digital business card, simply navigate to the deployed application on Netlify. Here is a screenshot of the app:
+![To use the digital business card, simply navigate to the deployed application on Netlify.] (https://digitalbusinesscardpaulinakoch.netlify.app) 
 
 
 
@@ -65,7 +65,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+
 
 ## Badges
 
